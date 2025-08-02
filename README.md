@@ -1,14 +1,42 @@
-# Diabetes Prediction using Machine Learning
-This project aims to predict whether a person is likely to have diabetes based on various medical attributes. 
-Using the Pima Indians Diabetes Dataset, we trained a machine learning model to classify individuals as diabetic or non-diabetic.
+#  Diabetes Prediction using Machine Learning
 
-# Key Features:
-1 Data Preprocessing: Handled missing values, scaled features, and explored correlations.
+This project is a Machine Learning-based solution that predicts whether a person is diabetic or not, using medical data. It uses the popular **Pima Indians Diabetes Dataset** and applies supervised learning models to perform binary classification.
 
-2 Modeling: Trained and tested models like Logistic Regression, Decision Tree, and Random Forest.
+## Dataset Information
 
-3 Evaluation: Achieved high accuracy using metrics like confusion matrix, accuracy score, and ROC-AUC.
+The dataset includes medical predictor variables and one target variable:
+- **Pregnancies**
+- **Glucose**
+- **Blood Pressure**
+- **Skin Thickness**
+- **Insulin**
+- **BMI**
+- **Diabetes Pedigree Function**
+- **Age**
+- **Outcome (0 = Non-diabetic, 1 = Diabetic)**
 
-4 Input Features: Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Age, etc.
+Data Source: ['pima-data (1).xlsx']
 
-5 Goal: To build a predictive system that helps in early detection of diabetes, potentially assisting healthcare professionals in diagnosis.
+
+##  Technologies Used
+
+- Python 
+- Pandas & NumPy
+- Matplotlib & Seaborn for visualization
+- Scikit-learn for ML models
+
+---
+
+## Project Steps
+
+1. **Data Cleaning**: Handled missing/null values using `.isnull().sum()`
+2. **Exploratory Data Analysis (EDA)**: Found patterns, distributions, and feature correlations
+3. **Model Training**:
+   - Logistic Regression
+   - Decision Tree Classifier
+   - Random Forest Classifier
+4. **Model Evaluation**:
+   - Confusion Matrix
+   - Accuracy Score
+   - ROC Curve
+
